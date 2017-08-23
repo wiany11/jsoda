@@ -1,0 +1,12 @@
+#jsoda-image {
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  z-index: -1;
+}
+
+#jsoda-canvas {
+  position: absolute;
+  left: 100px;
+  top: 100px;
+}
