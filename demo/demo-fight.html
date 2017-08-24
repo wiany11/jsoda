@@ -1,0 +1,27 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="../css/core.css">
+  <link rel="stylesheet" type="text/css" href="../css/util.css">
+</head>
+<body>
+  <div id="jsoda-menu">
+    <p id="jsoda-box-list"></p>
+    <input type="file" onchange="loadImage(this)" style="display: none"/>
+    <input type="button" value="Upload" onclick="clickInputFile()" />
+    <input type="button" value="Download" onclick="download()" />
+  </div>
+
+  <div id="jsoda-workspace">
+    <canvas id="jsoda-canvas"></canvas>
+    <img id="jsoda-image"></img>
+  </div>
+
+  <script src="../js/core.js"></script>
+  <script src="../js/util.js"></script>
+  <script>
+    addBoxTypeWithNameAndColor("face", "#FFE4C4");
+    addBoxTypeWithNameAndColor("ramen", "#FF8C00");
+    addBoxTypeWithNameAndColor("bottle", "#00FFFF");
+  </script>
+</body>
+</html>
