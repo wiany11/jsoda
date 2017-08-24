@@ -1,7 +1,8 @@
 # jsoda
 JavaScript for Object Detection Annotation
 
-jsoda is a pure JavaScript web application to annotate image for object detection.
+jsoda is a simple pure JavaScript web application to annotate image for object detection.
+(No installation and no dependencies!)
 
 Annotated bounding boxes are stored in KITTI format.
 
