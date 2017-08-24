@@ -1,0 +1,70 @@
+input::-webkit-color-swatch {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jsoda-box-type {
+  margin: 10px 15px 10px 0px;
+  padding: 5px 10px 5px 10px;
+  cursor: pointer;
+  display: inline-block;
+  background-color: AliceBlue;
+  vertical-align: middle;
+}
+.jsoda-box-type > input[type=color] {
+  border-width: 0px;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: 25px;
+  height: 25px;
+  background-color: transparent;
+  vertical-align: middle;
+}
+.jsoda-box-type > input[type=text] {
+  font-size: 20px;
+  padding: 2.5px 2.5px 2.5px 5px;
+  border: none;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 20px;
+  color: DimGray ;
+  transition: all 0.1s linear;
+  vertical-align: middle;
+}
+.jsoda-box-type > input[type=text]:hover {
+  color: LightGray;
+}
+.jsoda-box-type > a {
+  font-size: 20px;
+  color: DarkSlateGray;
+  transition: all 0.1s linear;
+  vertical-align: middle;
+}
+.jsoda-box-type > a:hover {
+  color: LightSlateGray;
+}
+
+#jsoda-box-type-input {
+  display: inline-block;
+  margin: 5px 15px 5px 0px;
+  padding: 5px 10px 5px 10px;
+  display: inline-block;
+  background-color: AliceBlue;
+  vertical-align: middle;
+}
+#jsoda-box-type-input > input {
+  font-size: 20px;
+  padding: 2.5px 2.5px 2.5px 5px;
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  transition: all 0.1s linear;
+  vertical-align: middle;
+}
+#jsoda-box-type-input > a {
+  font-size: 20px;
+  color: DarkSlateGray;
+  vertical-align: middle;
+}

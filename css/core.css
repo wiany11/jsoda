@@ -1,12 +1,56 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#jsoda-menu {
+  position: absolute;
+  top: 0%;
+  right: 85%;
+  bottom: 0%;
+  left: 0%;
+  padding: 10px;
+  background-color: LightSteelBlue ;
+}
+#jsoda-menu > input {
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  width: 150px;
+  display: block;
+  background-color: DodgerBlue;
+  transition: all 0.1s linear;
+  color: white;
+  cursor: pointer;
+}
+#jsoda-menu > input:hover {
+  background-color: DeepSkyBlue;
+}
+
+#jsoda-box-list {
+  margin: 25px 0px 25px 0px;
+  padding: 10px;
+}
+
+#jsoda-workspace {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: 15%;
+  overflow: auto;
+}
+
 #jsoda-image {
   position: absolute;
-  left: 100px;
-  top: 100px;
+  left: 0px;
+  top: 0px;
   z-index: -1;
 }
 
 #jsoda-canvas {
   position: absolute;
-  left: 100px;
-  top: 100px;
+  left: 0px;
+  top: 0px;
 }
